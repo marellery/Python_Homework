@@ -74,16 +74,16 @@
 
 #Задача 5.  Реализуйте алгоритм перемешивания списка.
 
-# import random
+import random
 
-# n = int(input (f"Введите количество элементов: "))
-# list = []
-# for i in range(n):
-#     list.append(random.randint(1, 10))
-# print(list)
+n = int(input (f"Введите количество элементов: "))
+list = []
+for i in range(n):
+    list.append(random.randint(1, 10))
+print(list)
 
-# shuf=[len(list)]
-# for e in range(len(list)-1):
-#     shuf.append(list[e+1])
-# shuf[len(list)-1]=list[0]
-# print(shuf)
+shuf=[len(list)]
+for e in range(len(list)-1):
+    shuf.append(list[e])
+shuf[len(list)-1]=list[0]
+print(shuf)
