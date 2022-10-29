@@ -19,28 +19,28 @@
 
 #  Задача 2.   Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 
-import random
+# import random
 
-n=int(input ("Введите количество элементов: "))
-list=[n]
-multilist=[]
+# n=int(input ("Введите количество элементов: "))
+# list=[n]
+# multilist=[]
 
 
-for i in range(n-1):
-    list.append(random.randint(-100,100))
-print(list)
+# for i in range(n-1):
+#     list.append(random.randint(-100,100))
+# print(list)
 
-a=int(n/2+n%2)
-print(a)
-if a%2==0:
-    for e in range(int(a)):
-        multilist.append(list[e]*list[n-1-e])
-elif a%2==1:
-    for e in range(a):
-        multilist.append(list[e]*list[n-1-e])
-    if e==a:
-        multilist.append(list[e]*list[e])
-print(multilist)
+# a=int(n/2+n%2)
+# print(a)
+# if a%2==0:
+#     for e in range(int(a)):
+#         multilist.append(list[e]*list[n-1-e])
+# elif a%2==1:
+#     for e in range(a):
+#         multilist.append(list[e]*list[n-1-e])
+#     if e==a:
+#         multilist.append(list[e]*list[e])
+# print(multilist)
 
 #  Задача 3.   Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
 
