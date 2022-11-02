@@ -53,7 +53,8 @@
 #     list.append(random.uniform(0,5))
 # print(list)
 
-
+# min=-0.00000000000001
+# max=-0.999999999999999999999999999999999999
 
 # drobi=[]
 # for i in range(n):
@@ -61,8 +62,7 @@
 # print(drobi)
 
 # for i in range(n-1):
-#     min=drobi[i]
-#     max=drobi[i]
+    
 #     if min>drobi[i+1]:
 #         min=drobi[i+1]
 #     if max<drobi[i+1]:
