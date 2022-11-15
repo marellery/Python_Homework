@@ -35,23 +35,23 @@
 
 #    Задача 3. Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 
-# import random
-# n = int(input('Введите количество элементов списка:'))
-# list=[n]
-# unik=[]
+import random
+n = int(input('Введите количество элементов списка:'))
+list=[]
+unik=[]
 
-# for i in range(n-1):
-#     list.append(random.randint(-20,20))
-# print(list)
+for i in range(n):
+    list.append(random.randint(1,20))
+print(list)
 
-# unik.append(list[0])
+unik.append(list[0])
 
 
-# for i in list:
-#     if list.count(i) == 1:
-#         unik.append(i)
+for i in list:
+    if list.count(i) == 1:
+        unik.append(i)
 
-# print('Список неповторяющихся элементов:', unik)
+print('Список неповторяющихся элементов:', unik)
 
 
 
